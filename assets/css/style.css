@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url(./root.css);
+.poppins {
+  font-family: "Poppins", sans-serif;
 
+  font-style: normal;
+}
 /*----------------------------section-1----------------------------*/
 .widdth {
   width: 50px;
@@ -59,6 +64,7 @@
 
 .wallet {
   text-decoration: none;
+  color: rgba(0, 0, 0, 1);
 }
 .toogle-btn .button {
   width: 20px;
@@ -94,7 +100,9 @@
   color: #000;
   padding-left: 24px;
 }
-
+.media-img-1 {
+  cursor: pointer;
+}
 /*---------------------------------section-2--------------------------------*/
 
 .comment {
@@ -148,7 +156,7 @@
   border: 1px solid #e1e1e1;
 }
 
-/* header-media-quary */
+/*------------responsive-------------*/
 
 @media (max-width: 992px) {
   .label {
@@ -162,7 +170,7 @@
   }
 
   .menu-list {
-    width: 100%;
+    width: 40%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -221,6 +229,9 @@
     flex-direction: row !important;
     display: flex;
     gap: 10px;
+  }
+  .copyright {
+    display: none;
   }
 }
 @media (max-width: 576px) {
