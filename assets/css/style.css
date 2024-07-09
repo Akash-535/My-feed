@@ -71,6 +71,7 @@
   background-color: #000;
   border-radius: 50%;
   transition: all 20ms linear;
+  cursor: pointer;
 }
 
 #toggle:checked ~ label.toogle-btn {
@@ -99,6 +100,7 @@
   text-align: left;
   color: #000;
   padding-left: 24px;
+  outline: none;
 }
 .media-img-1 {
   cursor: pointer;
@@ -142,7 +144,15 @@
   height: 129px;
   background-color: aqua;
 }
-
+.cursor {
+  cursor: pointer;
+}
+.copyright {
+  color: rgba(0, 0, 0, 1);
+}
+.three {
+  cursor: pointer;
+}
 /*---------------------section-3------------------------*/
 
 .post {
